@@ -75,7 +75,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 space-y-4 animate-fade-in">
+          <div className=" bg-black/80 p-5 bg-blend-overlay rounded-md md:hidden py-4 space-y-4 animate-fade-in">
             {navLinks.map((link) => (
               <a
                 key={link.label}

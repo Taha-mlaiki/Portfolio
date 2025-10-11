@@ -42,7 +42,7 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6">Core Values</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-2" />
+                <div className="w-2 h-2 bg-primary flex-shrink-0 rounded-full mt-2" />
                 <div>
                   <h4 className="font-semibold mb-1">Quality & Precision</h4>
                   <p className="text-sm text-muted-foreground">
@@ -51,7 +51,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-secondary rounded-full mt-2" />
+                <div className="w-2 h-2 flex-shrink-0 bg-secondary rounded-full mt-2" />
                 <div>
                   <h4 className="font-semibold mb-1">Continuous Learning</h4>
                   <p className="text-sm text-muted-foreground">
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-accent rounded-full mt-2" />
+                <div className="w-2 h-2 bg-accent flex-shrink-0 rounded-full mt-2" />
                 <div>
                   <h4 className="font-semibold mb-1">Passion & Growth</h4>
                   <p className="text-sm text-muted-foreground">
