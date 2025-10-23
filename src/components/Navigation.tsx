@@ -44,7 +44,7 @@ const Navigation = () => {
             onClick={scrollToTop}
             className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
-            &lt;Dev/&gt;
+            &lt;Taha Mlaiki/&gt;
           </button>
 
           {/* Desktop Navigation */}
